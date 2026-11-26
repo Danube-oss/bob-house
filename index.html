@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La Bob House : trois colocs, des souvenirs et des jeux quotidiens.">
+  <title>La Bob House — Bienvenue à Bikini Bottom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bubble-layer" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#accueil">🫧 LA <b>BOB HOUSE</b></a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#habitants">Les habitants</a><a href="#souvenirs">Souvenirs</a><a href="#jeux">La salle de jeux</a><a href="#quotidien">La coloc</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="accueil">
+      <div class="hero-copy">
+        <p class="eyebrow">📍 Quelque part sous l'océan Brestois</p>
+        <h1>Bienvenue à<br><span>La Bob House&nbsp;!</span></h1>
+        <p class="hero-text">Trois colocs, une maison sous l'eau, des aventures discutables et des souvenirs qu'on ne racontera pas tous aux parents.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#souvenirs">Voir nos dossiers <span>↘</span></a><a class="button button-ghost" href="#jeux">Lancer un jeu 🎮</a></div>
+        <p class="tiny-note">Un petit site fait avec amour, humour et énormément de prompts.</p>
+      </div>
+      <div class="hero-art" aria-label="Illustration sous-marine originale">
+        <div class="sun-glow"></div><div class="pineapple-house"><div class="leaves"></div><div class="house-window">✦</div><div class="house-door"></div></div>
+        <div class="fish fish-one">🐠</div><div class="fish fish-two">🐟</div><div class="sign">LA BOB HOUSE<br><small>depuis ???</small></div><div class="coral">〰</div>
+      </div>
+      <div class="scroll-hint">FAIS DÉFILER <span>↓</span></div>
+    </section>
+
+    <section class="intro-strip"><span>☀️ Soleil dans l'eau</span><i>✦</i><span>💛 100 % souvenirs</span><i>✦</i><span>🎮 Défis quotidiens</span></section>
+
+    <section class="section residents" id="habitants">
+      <div class="section-heading">
+        <p class="eyebrow">Le casting officiel</p>
+        <h2>Les habitants <span>du récif</span></h2>
+        <p>Trois personnalités, un seul frigo. Voici les responsables (clique sur une photo pour l'agrandir).</p>
+      </div>
+      <div class="resident-grid">
+
+        <!-- Colocataire 1 (ajoute d'autres photos dans data-photos séparées par des virgules) -->
+        <article class="coloc-card">
+          <img class="portrait-photo"
+               src="images/IMG_2271.jpg"
+               data-photos="images/IMG_2271.jpg"
+               alt="Patrick l'Étoile de mer">
+          <div class="coloc-info">
+            <h3>Patrick l'Étoile de mer</h3>
+            <p>GAY</p>
+          </div>
+        </article>
+
+        <!-- Colocataire 2 -->
+        <article class="coloc-card">
+          <img class="portrait-photo"
+               src="images/IMG_2122.jpg"
+               data-photos="images/IMG_2122.jpg"
+               alt="Carlos Tentacule">
+          <div class="coloc-info">
+            <h3>Carlos Tentacule</h3>
+            <p>À la recherche de Caprisun au Foy'Z</p>
+          </div>
+        </article>
+
+        <!-- Colocataire 3 -->
+        <article class="coloc-card">
+          <img class="portrait-photo"
+               src="images/IMG_0843.jpg"
+               data-photos="images/IMG_0843.jpg"
+               alt="Bob L'Éponge">
+          <div class="coloc-info">
+            <h3>Bob L'Éponge</h3>
+            <p>Je suis végétarienne je mange que du pepe chicken</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="memory-section section" id="souvenirs">
+      <div class="section-heading light-heading">
+        <p class="eyebrow">Archives classées (à peu près)</p>
+        <h2>Le musée des <span>souvenirs</span></h2>
+        <p>Clique sur un album pour afficher les photos en grand et les faire défiler.</p>
+      </div>
+      <div class="memory-grid">
+        <figure class="memory memory-large">
+          <img class="memory-photo"
+               src="images/1ad07697-2bc1-4bf6-8344-72106d429d53.jpg"
+               data-photos="images/1ad07697-2bc1-4bf6-8344-72106d429d53.jpg, images/asterix.jpg, images/0.jpg , images/IMG_6385.jpg, images/exam.jpg , images/lesbienne.jpg,images/IMG_9815.jpg   "
+               alt="Les aventures de la coloc">
+          <figcaption><b>Les aventures</b><span>Un souvenir à raconter…</span></figcaption>
+        </figure>
+
+        <figure class="memory">
+          <img class="memory-photo"
+               src="images/IMG_0255.jpg"
+               data-photos="images/IMG_0255.jpg  , images/IMG_5509.jpg, images/petard.jpg, images/anniv.jpg, images/bisous.jpg, images/duo.jpg, images/4.jpg, images/volley.jpg, images/IMG_2408.jpg, images/IMG_4913.jpg "
+               alt="Les soirées de la coloc">
+          <figcaption><b>Les soirées</b><span>On a souvent finit dans des états lamentable </span></figcaption>
+        </figure>
+
+        <figure class="memory">
+          <img class="memory-photo"
+               src="images/IMG_6235.jpg"
+               data-photos="images/IMG_6235.jpg,images/IMG_0443.jpg, images/IMG_0451.jpg"
+               alt="Les festins de la coloc">
+          <figcaption><b>Les festins</b><span>Chef-d'œuvre ou catastrophe ?</span></figcaption>
+        </figure>
+
+        <figure class="memory">
+          <img class="memory-photo"
+               src="images/IMG_6370.jpg"
+               data-photos="images/IMG_6370.jpg, images/IMG_6297.jpg, images/IMG_6372.png, images/IMG_6130.jpg, images/honneur.jpg, images/IMG_0251.jpg"
+               alt="Les dossiers de la coloc">
+          <figcaption><b>Les dossiers</b><span>Sans commentaire.</span></figcaption>
+        </figure>
+
+                <figure class="memory">
+          <img class="memory-photo"
+               src="images/plage.jpg"
+               data-photos="images/plage.jpg  , images/bus.jpg, images/P1110028.jpg, images/IMG_1897.jpg, images/IMG_5531.jpg "
+               alt="Les soirées de la coloc">
+          <figcaption><b>Les copains </b><span>Ce qui se passe avec la team</span></figcaption>
+        </figure>
+
+
+      </div>
+    </section>
+
+    <section class="games-section section" id="jeux">
+      <div class="section-heading">
+        <p class="eyebrow">Le rendez-vous du jour</p>
+        <h2>La salle de <span>jeux</span> 🎮</h2>
+        <p>Six petits défis pour faire chauffer les neurones entre deux épisodes de la coloc.</p>
+      </div>
+      <div class="game-tabs" role="tablist" aria-label="Choisir un jeu">
+        <button class="game-tab active" data-game="yakazu">🔢 Yakazu</button>
+        <button class="game-tab" data-game="sudoku">🧩 Sudoku</button>
+        <button class="game-tab" data-game="binary">💡 Binary</button>
+        <button class="game-tab" data-game="mots">📝 Mots fléchés</button>
+        <button class="game-tab" data-game="wordle">🟩 Wordle</button>
+        <button class="game-tab" data-game="chess">🐴 Échecs</button>
+      </div>
+      <div class="game-panel">
+        <div class="game-top">
+          <div>
+            <p class="eyebrow">Défi quotidien</p>
+            <h3 id="game-title">Yakazu du jour</h3>
+            <p id="game-description">Chaque suite horizontale ou verticale de N cases blanches contient tous les chiffres de 1 à N, sans répétition.</p>
+          </div>
+          <div class="daily-stamp">DÉFI<br>DU JOUR<br>🫧</div>
+        </div>
+        <div id="game-content" class="game-content"></div>
+        <div class="game-feedback" id="game-feedback" aria-live="polite">À toi de jouer !</div>
+        <div class="game-actions">
+          <button class="button button-primary" id="check-game">Vérifier</button>
+          <button class="button button-ghost dark-ghost" id="reset-game">Recommencer</button>
+        </div>
+        <p class="game-date" id="game-date"></p>
+      </div>
+      <p class="game-note">Les grilles sont des mini-défis intégrés à cette page. Le défi affiché est commun à tous les visiteurs le même jour ; la progression est conservée sur cet appareil.</p>
+    </section>
+
+    <section class="section daily" id="quotidien">
+      <div class="section-heading"><p class="eyebrow">Le règlement presque officiel</p><h2>La vie <span>à la coloc</span></h2><p>Quelques règles fondamentales pour survivre ensemble.</p></div>
+      <div class="rules-grid">
+        <div class="rule"><span>🍟</span><h3>Le frigo est un territoire</h3><p>Tout aliment non identifié devient une découverte scientifique.</p></div>
+        <div class="rule"><span>🧽</span><h3>La vaisselle existe</h3><p>Elle ne se lave pas par magie. On a vérifié.</p></div>
+        <div class="rule"><span>🎶</span><h3>La playlist est sacrée</h3><p>Les goûts musicaux se respectent. Même les plus discutables.</p></div>
+      </div>
+      <div class="guestbook"><div><p class="eyebrow">Un mot pour la postérité</p><h2>Signé : la team <span>Bob House</span></h2><p>On ne sait pas combien de temps durera cette aventure, mais on aura de quoi remplir les albums.</p></div><div class="stamp">AMITIÉ<br>VALIDÉE<br>✦</div></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#accueil">🫧 LA <b>BOB HOUSE</b></a>
+    <p>Fabriqué avec 💛, quelques bulles et beaucoup de souvenirs.</p>
+    <a href="#accueil" class="back-top">Retour en haut ↑</a>
+    <small>Site personnel non officiel. Les personnages et marques Bob l'éponge appartiennent à leurs ayants droit.</small>
+  </footer>
+
+  <!-- Visionneuse plein écran (Lightbox) -->
+  <div class="lightbox hidden" id="lightbox" role="dialog" aria-modal="true" aria-label="Visionneuse photo">
+    <button type="button" class="lb-close" id="lb-close" aria-label="Fermer">&times;</button>
+    <button type="button" class="lb-nav lb-prev" id="lb-prev" aria-label="Photo précédente">&#10094;</button>
+    <div class="lb-stage">
+      <img id="lb-img" src="" alt="">
+      <p class="lb-caption" id="lb-caption"></p>
+    </div>
+    <button type="button" class="lb-nav lb-next" id="lb-next" aria-label="Photo suivante">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
